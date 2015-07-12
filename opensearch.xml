@@ -5,6 +5,6 @@
   <InputEncoding>UTF-8</InputEncoding> 
   <LongName>Google Search</LongName> 
   <Image width="16" height="16">https://google.com/favicon.ico</Image>
-  <Url type="text/html" method="GET" template="http://www.google.com/search?q={searchTerms}" />
-  <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?hl=ru&amp;q={searchTerms}"/>
+  <Url type="text/html" method="GET" template="https://www.google.com/search?q={searchTerms}" />
+  <Url type="application/x-suggestions+json" method="GET" template="https://suggestqueries.google.com/complete/search?hl=ru&amp;q={searchTerms}"/>
 </OpenSearchDescription>
